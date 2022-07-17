@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: inherit;
+    transition: all 0.6s ease;
+}
+
+:root {
+    --bgcol: #000000;
+    --mcol0: #29B6F6;
+    --mcol1: #2196F3;
+    --mcol2: #1976D2;
+    --txtcol0: #90A4AE;
+    --txtcol1: #607D8B;
+    --whitecol: #ECEFF1;
+    --darkcol: #263238;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+    background-color: var(--bgcol);
+}
+#table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    table-layout: fixed;
+    margin: 30px;
+}
+table#content-table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    /* width: 40%; */
+    margin: 25px 25px;
+    min-width: 400px;
+}
+
+#table-container td {
+    table-layout: fixed;
+    height: 80px;
+    font-size: 30px;
+    color: #ECEFF1;
+    text-align: center;
+    cursor: pointer;
+    transition:left 0.3s;
+    padding: 4%;
+    font-weight: bold;
+
+}
+
+.footer{
+    font-family: Poppins;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.button{
+    color: #0ff;
+    font-size: 21px;
+    border: 3px solid #0ff;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: #0ff;
+    color: #000;
+    box-shadow: 0 0  #0ff,0 0 21px #0ff;
+
+}
